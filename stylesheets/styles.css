@@ -317,7 +317,7 @@ footer p + p {
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
-    width: 200%;
+    width: 100%;
   }
 
   footer {
@@ -354,4 +354,8 @@ footer p + p {
   header p.view a small:before {
     content: 'at https://github.com/';
   }
+}
+
+.some {
+text-decoration-color:  red;
 }
