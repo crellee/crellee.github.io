@@ -356,6 +356,12 @@ footer p + p {
   }
 }
 
-.some {
-text-decoration-color:  red;
+body div ul {
+  font-size: 120%;
 }
+body div ul li a {
+  
+  color: #002156;
+}
+
+
