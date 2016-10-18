@@ -372,3 +372,14 @@ body div ul li a {
 }
 */
 
+progress {
+  background-color: #f3f3f3;
+  border: 0;
+  height: 10px;
+  width: 230px;
+  border-radius: 9px;
+  font:white;
+}
+
+
+
