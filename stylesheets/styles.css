@@ -361,7 +361,8 @@ footer p + p {
 
 body div ul {
   font-size: 120%;
-  /*position: fixed;*/
+  position: fixed;
+  -webkit-backface-visibility: hidden;
 }
 body div ul li a {
   
