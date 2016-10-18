@@ -361,10 +361,12 @@ footer p + p {
 
 body div ul {
   font-size: 120%;
+  position: fixed;
 }
 body div ul li a {
   
   color: #002156;
+  position: fixed;
 }
 /*
 #tjektjek {
