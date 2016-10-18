@@ -1,12 +1,14 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+/*@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);*/
 html {
-  background: #6C7989;
-  background: #6c7989 -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #6c7989), color-stop(100%, #434b55)) fixed;
-  background: #6c7989 -webkit-linear-gradient(#6c7989, #434b55) fixed;
-  background: #6c7989 -moz-linear-gradient(#6c7989, #434b55) fixed;
-  background: #6c7989 -o-linear-gradient(#6c7989, #434b55) fixed;
-  background: #6c7989 -ms-linear-gradient(#6c7989, #434b55) fixed;
-  background: #6c7989 linear-gradient(#6c7989, #434b55) fixed;
+  background: #486b96;
+  background: #84b3ed -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8bb0dd), color-stop(100%, #b1c3d8)) fixed;
+  background: #8bb0dd -webkit-linear-gradient(#8bb0dd, #b1c3d8) fixed;
+  background: #8bb0dd -moz-linear-gradient(#8bb0dd, #b1c3d8) fixed;
+  background: #8bb0dd -o-linear-gradient(#8bb0dd, #b1c3d8) fixed;
+  background: #8bb0dd -ms-linear-gradient(#8bb0dd, #b1c3d8) fixed;
+  background: #8bb0dd linear-gradient(#8bb0dd, #b1c3d8) fixed;
+  /*background:;*/
+  
 }
 
 body {
@@ -15,7 +17,12 @@ body {
   font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #555;
   font-weight: 300;
-  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAeCAYAAABNChwpAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNXG14zYAAAAUdEVYdENyZWF0aW9uIFRpbWUAMy82LzEygrTcTAAAAFRJREFUSIljfPDggZRf5RIGGNjUHsNATz6jXmSL1Kb2GLiAX+USBnrymRgGGDCORgFmoNAXjEbBaBSMRsFoFIxGwWgUjEbBaBSMRsFoFIxGwWgUAABYNujumib3wAAAAABJRU5ErkJggg==') fixed;
+  background: url(/images/checker.png) fixed;
+  /*background: url(http://www.freepik.com/free-vector/green-polygons-background_796122.htm);*/
+  /*background: url('http://www.freepik.com/free-vector/green-polygons-background_796122.htm');*/
+  /*background: url('http://www.freepik.com/free-vector/blue-dotted-background_780928.htm') fixed;*/
+  /*background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAeCAYAAABNChwpAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNXG14zYAAAAUdEVYdENyZWF0aW9uIFRpbWUAMy82LzEygrTcTAAAAFRJREFUSIljfPDggZRf5RIGGNjUHsNATz6jXmSL1Kb2GLiAX+USBnrymRgGGDCORgFmoNAXjEbBaBSMRsFoFIxGwWgUjEbBaBSMRsFoFIxGwWgUAABYNujumib3wAAAAABJRU5ErkJggg==') fixed;
+*/
 }
 
 .wrapper {
@@ -292,7 +299,7 @@ footer {
   width: 640px;
   margin: 0 auto;
   padding: 20px 0 0;
-  color: #ccc;
+  color: black;
   overflow: hidden;
 }
 footer a {
