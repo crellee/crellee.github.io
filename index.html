@@ -10,18 +10,24 @@
     <!--<link rel="stylesheet" href="stylesheets/github-dark.css">-->
     <!--<script src="javascripts/scale.fix.js"></script>-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+            <script src="smoothscroll/dist/js/smooth-scroll.js"></script>
+
+        <script>
+            smoothScroll.init();
+        </script>
 
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <body id="homeclass">
+
   <div class="col-md-3">
   <ul class="nav nav-pills nav-stacked">
-    <li class="active"><a href=""><b> Hjem </b></a></li>
-    <li><a href="projects.html"><b>Projekter</b></a></li>
-    <li><a href="contact.html"><b>Kontakt</b></a></li>
-    <li><a href="cv.html"><b>CV</b></a></li>
+    <li><a data-scroll href="#homeclass"><b> Hjem </b></a></li>
+    <li><a data-scroll href="#projectclass"><b>Projekter</b></a></li>
+    <li><a data-scroll href="#contactclass"><b>Kontakt</b></a></li>
+    <li><a data-scroll href="#cvclass"><b>CV</b></a></li>
   </ul>
 </div>
     <div class="wrapper">
@@ -48,6 +54,255 @@
       <br/>
       </section>
     </div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+
+    <div id="projectclass">
+      <div class="wrapper">
+      <header>
+        <h1><b>Projekter</b></h1>
+      </header>
+    <section>
+      <p><h3>Mine projekter</h3></p>
+      Jeg har lavet flere forskellige projekter i forskellig programmeringssprog. <br/>
+      <a data-scroll href="#javaclass">Java</a>
+    </section>
+    </div>
+
+    </div>
+    <br/>
+    <br/>
+
+    <div id="javaclass">
+        <div class="wrapper">
+      <header>
+        <h1><b>Java</b></h1>
+      </header>
+    <section>
+    <img src="images/java.png" alt="java" height="120" width="120">
+    <br/>
+    Java har været hovedfaget på mit studie og må derfor sige at have en solid grundforståelse for at kunne udvikle i Java.
+    Jeg har efterhånden udviklet alverden i Java, og mange projekter hvor jeg har brugt en database (MySQL).
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+      <h3>Vicarius</h3>
+
+      Vicarius er et program som jeg udviklede sammen med to studiekammerater fra mit studie som et afsluttende erhvervsprojekt.
+      Programmet er et vikarbureau, som har to typer kunder - virksomheder, og privatpersoner. I programmet defineres virksomhederne som ‘buyers’ og privatpersoner som ‘sellers’. ‘Buyers’ tilbyder et vikararbejde, og sætter et krav til hvilke kvalifikationer dette arbejde kræver. ‘Sellers’ har tilføjet hvilke kvalifikationer de besidder i forhold til at arbejde. Hvis en virksomhed har udbudt et arbejde, med et specifikt krav til kvalifikationer, og en privatperson besidder disse, vil de matche. <br/>Herefter kan begge parter ansøge hinanden om at arbejde sammen. Efter samarbejdet ophører kan virksomheden og privatpersonen anmelde(‘rate’) hinanden, i forhold til hvor anbefalelsesværdige de synes hinanden er.<br/>
+      <a href="https://github.com/crellee/projectActive">Se GitHub repository her.</a>
+      <br/>
+      <br/>
+
+      <img src="images/vicarius.png" alt="Vicarius" height="427%" width="606">
+      <br/>
+      <br/>
+      <h3>Programmeringskoncepter</h3>
+      Jeg har en bred forståelse for hvornår og hvorfor man bruger forskellige programmeringskoncepter. Nedestående er en liste over en række koncepter som jeg har lavet nogle kodeeksempler på hvordan man kan bruge dem. Jeg har linket til mine Git repositories.<br/>
+      <br/>
+      <ul>
+      <li><a href="https://github.com/crellee/ProgrammingConcepts/tree/master/ListInterfaceProject">Lists & Sets<br/></a></li>
+      <li><a href="https://github.com/crellee/ProgrammingConcepts/tree/master/MapsHeapsProject">Maps, Heaps & Hashing<br/></a></li>
+      <li><a href="https://github.com/crellee/ProgrammingConcepts/tree/master/StackQueueDequesProject">Stacks, Queues & Deques<br/></a></li>
+      <li><a href="https://github.com/crellee/ProgrammingConcepts/tree/master/TreesGraphsProject">Trees & Graphs <br/></a></li>
+      <li><a href="https://github.com/crellee/ProgrammingConcepts/tree/master/SortingBigOProject">Sorting & Big O <br/></a></li>
+      <li><a href="https://github.com/crellee/ProgrammingConcepts/tree/master/RecursionProject">Recursion <br/></a></li>
+      <li><a href="https://github.com/crellee/ProgrammingConcepts/tree/master/ThreadsProject">Threads <br/></a></li>
+      <li><a href="https://github.com/crellee/ProgrammingConcepts/tree/master/SocketsProject">Sockets <br/></a></li>
+      <li><a href="https://github.com/crellee/ProgrammingConcepts/tree/master/ListInterfaceProject">Interface <br/></a></li>
+      <li><a href="https://github.com/crellee/ProgrammingConcepts/tree/master/PolymorphismProject">Polymorphism <br/></a></li>
+      <li><a href="https://github.com/crellee/ProgrammingConcepts/tree/master/StrategyPatternProject">Strategy Pattern <br/></a></li>
+      <li><a href="https://github.com/crellee/ProgrammingConcepts/tree/master/ObserverPatternProject">Observer Pattern <br/></a></li>
+      <li><a href="https://github.com/crellee/ProgrammingConcepts/tree/master/MediatorPatternProject">Mediator Pattern <br/></a></li>
+      <li><a href="https://github.com/crellee/ProgrammingConcepts/tree/master/FactoryPatternProject">Factory Pattern <br/></a></li>
+      </ul>
+
+    </section>
+    </div>
+    </div>
+    <br/>
+    <br/>
+    
+    <div id="contactclass">
+        <div class="wrapper">
+    <header><h1><b>Kontakt</b></h1></header>
+    <section>
+      <p>
+        <h3>Kontaktoplysninger</h3>
+      </p>
+      </br>
+      <i>Du kan kontakt mig på følgende:</i>  
+      <br/>
+      <br/>
+      <address>
+      <b>Navn</b> <br/>
+      Christian Hasselstrøm <br/>      
+      <b>Adresse</b> 
+      <br>
+      Guldbergsgade 23, 2th <br/>
+      2200 København N <br/>
+      <b>Telefon</b> <br/>
+      26 81 28 52 <br/>
+      <b>Email</b> <br/>
+      <a href="mailto:crellecrelle@gmail.com"> crellecrelle@gmail.com</a><br/>
+      </address>
+
+
+
+    </section>
+    </div>
+
+    </div>
+    <br/>
+    <br/>
+
+    <div id="cvclass"> 
+
+       <div class="wrapper">
+      <header>
+        <h1><b>CV</b></h1>
+      </header>
+      <section>
+      <p>
+        <h3><b>Interesse for programmering og ambitiøs profil</b></h3>
+      </p>
+      <i>Jeg engagerer mig meget i de opgaver jeg bliver pålagt, evner at have flere bolde i luften og er omstillingsparat. Min erhvervserfaring har givet mig stor indsigt i service samt programmering på forskellige niveauer. Jeg arbejder selvstændigt men forstår vigtigheden i at levere i teams.</i>
+<hr>
+            <p>
+        <h3><b>Beskæftigelse</b></h3>
+      </p>
+      <p class="col-md-4">
+      <b><u>Maj 2016 -</u></b>
+      </p>
+      <div class="col-md-6" id="tjektjek">
+      <b>Styrrelsen for Arbejdsmarked og Rekruttering:<br/> <u>Databehandler</u></b>
+      </div>
+      <br/>
+      <br/>
+      <div>
+      <br/>
+      - Vedligeholde database<br/>
+      - Udvikle metadata<br/>
+      - Udvikle SAS-Programmer<br/>
+      - Avancerede SQL-kald<br/>
+      </div>
+      <br/>
+      <br/>
+      <p class="col-md-4">
+      <b><u>Juni 2013 -</u></b>
+      </p>
+      <div class="col-md-6" id="tjektjek">
+      <b>Stokholtbuen: <br/> <u>Pædagog- og omsorgsmedhjælper</u> </b>
+      </div>
+      <br/>
+      <br/>
+      <div>
+      - Ansvar på egen hånd med beboere<br/>
+      - Ansvar for den enkeltes behov<br/>
+      - Opsøgende, nysgerrig og intiativrig<br/>
+      </div>
+      <br/>
+      <br/>
+      <p class="col-md-4">
+      <b><u>Maj 2013 - April 2014</u></b>
+      </p>
+            <div class="col-md-6" id="tjektjek">
+      <b>Hanssted Skole: <br/> <u>Lærevikar</u> </b>
+      </div>
+      <br/>
+      <br/>
+      - Ledelse (i forhold til klassen)<br/>
+      - Didaktik<br/>
+      - Formidling<br/>
+      <hr>
+
+      <p>
+        <h3><b>Uddannelse</b></h3>
+      </p>
+      <p class="col-md-4">
+      <b><u>Januar 2015 - Juni 2017</u></b>
+      </p>
+      <b>Københavns Erhvervsakademi</b><br/>
+      <b><u>Datamatiker</u></b>
+      <br/>
+      <br/>
+      <p class="col-md-4">
+      <b><u>August 2010 - Juni 2012</u></b>
+      </p>
+      <b>Gefion Gymnasium</b><br/>
+      <b><u>Samf. Eng.</u></b>
+      <br/>
+      <hr>
+      <p>
+        <h3><b>IT</b></h3>
+      </p>
+      <p><h4><b>Programmeringssprog</b></h4></p>
+
+      Programmeringsevne på højt niveau. <div class="col-md-5"><b>Java</b></div>
+      <progress max="100" value="100"></progress> <br/>
+      Programmeringsevne på højt niveau. <div class="col-md-5"><b>SQL</b></div>
+      <progress max="100" value="100"></progress><br/>
+      Programmeringsevne på højt niveau. <div class="col-md-5"><b>C#</b></div>
+      <progress max="100" value="80"></progress><br/>
+      Programmeringsevne på højt niveau. <div class="col-md-5"><b>ASP .NET</b></div>
+      <progress max="100" value="80"></progress><br/>
+      God grundforståelse og godt programmeringsniveau. <div class="col-md-5"><b>JavaScript</b></div>
+      <progress max="100" value="70"></progress><br/>
+      God grundforståelse og godt programmeringsniveau. <div class="col-md-5"><b>Node JS</b></div>
+      <progress max="100" value="70"></progress><br/>
+      God grundforståelse og udemærket programmeringsniveau <div class="col-md-5"><b>TypeScript</b></div>
+      <progress max="100" value="60"></progress><br/>
+      God grundforståelse og udemærket programmeringsniveau <div class="col-md-5"><b>Angular 2</b></div>
+      <progress max="100" value="60"></progress><br/>
+      God grundforståelse og udemærket programmeringsniveau <div class="col-md-5"><b>SAS</b></div>
+      <progress max="100" value="60"></progress><br/>
+
+      <br/>
+      <p><h4><b>Software</b></h4></p>
+      Superbruger <div class="col-md-4"><b>GIT</b></div><br/>
+      Superbruger <div class="col-md-4"><b>Microsoft Office</b></div><br/>
+      Superbruger <div class="col-md-4"><b>OSX</b></div><br/>
+      Superbruger <div class="col-md-4"><b>Windows 7</b></div><br/>
+      <hr>
+
+      <p>
+        <h3><b>Sprog</b></h3>
+      </p>
+      <div class="col-md-4">
+        <b>
+        Dansk <br/>
+        Engelsk <br/>
+        Spansk
+        </b>
+      </div>
+      Nationalsprog<br/>
+      Skrift og tale på højt niveau<br>
+      Forstår og taler sproget på medium niveau<br/>
+      <hr>
+
+      <p>
+        <h3><b>Kørekort</b></h3>
+      </p>
+      <b>Kategori B.</b>
+      <hr>
+
+
+
+
+
+
+      </section>
+    </div>
+
+    </div>
+
     <footer>
       <p>By Christian Hasselstrøm</a></p>
     </footer>

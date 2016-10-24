@@ -368,7 +368,7 @@ footer p + p {
 
 body div ul {
   font-size: 120%;
-  /*position: fixed;*/
+  position: fixed;
 }
 body div ul li a {
   
@@ -390,8 +390,8 @@ progress {
   font:white;
 }
 .undermenu {
-  padding: 10px 10px;
-  font-size: 80%;
+  padding: 8px 8px;
+  font-size: 90%;
   height: 1.2;
   color: black;
 }
