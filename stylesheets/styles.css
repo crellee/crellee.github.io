@@ -396,7 +396,13 @@ progress {
   color: black;
 }
 .ottt {
-	position: fixed;
+	{
+    width: 100%;
+    height: 320px;
+    background-color: #000000;
+    position: fixed;
+}
+
 }
 
 
