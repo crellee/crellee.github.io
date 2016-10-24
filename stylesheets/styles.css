@@ -368,7 +368,7 @@ footer p + p {
 
 body div ul {
   font-size: 120%;
-  position: fixed;
+  /*position: fixed;*/
 }
 body div ul li a {
   
@@ -394,6 +394,9 @@ progress {
   font-size: 90%;
   height: 1.2;
   color: black;
+}
+.ottt {
+	position: fixed;
 }
 
 
